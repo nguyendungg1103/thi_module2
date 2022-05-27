@@ -9,6 +9,17 @@
       <change afterPath="$PROJECT_DIR$/../demo/main.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled1/main.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitleddc/dcdc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/productManager.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Product.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/Product.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ProductManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ProductManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ProductManager.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/ProductManager.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP1/demo-class-mobile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP1/demo-class-mobile/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP1/demo-date/Date.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP1/demo-date/Date.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bai-luyen-mang-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bai-luyen-mang-1/.idea/vcs.xml" afterDir="false" />
@@ -81,12 +92,19 @@
       <workItem from="1653624981668" duration="3000" />
       <workItem from="1653624987968" duration="123000" />
       <workItem from="1653625114379" duration="12000" />
-      <workItem from="1653625160898" duration="782000" />
+      <workItem from="1653625160898" duration="3913000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/product.js" />
+        <option value="$PROJECT_DIR$/ProductManager.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

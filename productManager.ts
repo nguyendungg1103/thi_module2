@@ -3,8 +3,9 @@ export class ProductManager {
     constructor() {
     }
 
-    createProduct(product) {
-        this.product.push(product);
+    createProduct(...product:any []) {
+        // truyền vào một mảng
+        this.product.push(...product);
         this.showList(this.product)
     }
 

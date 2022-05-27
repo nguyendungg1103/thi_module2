@@ -1,6 +1,8 @@
-import { Product } from "./product.js";
-import { ProductManager } from "./ProductManager.js";
-var productManager = new ProductManager();
+"use strict";
+exports.__esModule = true;
+var product_js_1 = require("./product.js");
+var ProductManager_js_1 = require("./ProductManager.js");
+var productManager = new ProductManager_js_1.ProductManager();
 var key;
 var name = document.getElementById('name');
 var category = document.getElementById('category');
@@ -13,7 +15,7 @@ var priceEdit = document.getElementById('priceEdit');
 var amountEdit = document.getElementById('amountEdit');
 var descriptionEdit = document.getElementById('descriptionEdit');
 var search = document.getElementById('search');
-// document.getElementById('showAll').addEventListener('click', showAll);
+document.getElementById('showAll').addEventListener('click', showAll);
 function showAll() {
     productManager.showList(productManager.product);
 }
@@ -24,9 +26,9 @@ function clear() {
     amount.value = "";
     description.value = "";
 }
-document.getElementById('create').addEventListener('click', createProduct);
+document.getElementById('add-product').addEventListener('click', createProduct);
 function createProduct() {
-    var product = new Product(name.value, category.value, price.value, amount.value, description.value);
+    var product = new product_js_1.Product(name.value, category.value, price.value, amount.value, description.value);
     productManager.createProduct(product);
     clear();
     buttonUpdateProduct();
@@ -59,7 +61,7 @@ function buttonDeleteProduct() {
         deleteStudent[i].addEventListener('click', function () {
             if (confirm("are you sure?")) {
                 key = deleteStudent[i].getAttribute('value');
-                productManager.delete(+key);
+                productManager["delete"](+key);
                 buttonDeleteProduct();
             }
         });
@@ -73,4 +75,3 @@ function searchProduct() {
     var key = search.value;
     productManager.search(productManager.product, key);
 }
-//# sourceMappingURL=main.js.map

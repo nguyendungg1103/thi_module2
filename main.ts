@@ -18,7 +18,7 @@ let search = document.getElementById('search') as HTMLInputElement;
 
 
 
-document.getElementById('showAll').addEventListener('click', showAll);
+// document.getElementById('showAll').addEventListener('click', showAll);
 function showAll() {
     productManager.showList(productManager.product);
 }
@@ -82,3 +82,4 @@ function searchProduct() {
     let key = search.value;
     productManager.search(productManager.product, key);
 }
+

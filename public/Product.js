@@ -6,11 +6,21 @@ var Product = /** @class */ (function () {
         this.description = description;
         this.amount = amount;
     }
-    Product.prototype.getName = function () { return this.name; };
-    Product.prototype.getCategory = function () { return this.category; };
-    Product.prototype.getPrice = function () { return this.price; };
-    Product.prototype.getAmount = function () { return this.amount; };
-    Product.prototype.getDescription = function () { return this.description; };
+    Product.prototype.getName = function () {
+        return this.name;
+    };
+    Product.prototype.getCategory = function () {
+        return this.category;
+    };
+    Product.prototype.getPrice = function () {
+        return this.price;
+    };
+    Product.prototype.getAmount = function () {
+        return this.amount;
+    };
+    Product.prototype.getDescription = function () {
+        return this.description;
+    };
     return Product;
 }());
 export { Product };

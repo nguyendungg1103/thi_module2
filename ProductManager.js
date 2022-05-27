@@ -1,15 +1,13 @@
+"use strict";
+exports.__esModule = true;
+exports.ProductManager = void 0;
 var ProductManager = /** @class */ (function () {
     function ProductManager() {
         this.product = [];
     }
-    ProductManager.prototype.createProduct = function () {
-        var _a;
-        var product = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            product[_i] = arguments[_i];
-        }
+    ProductManager.prototype.createProduct = function (product) {
         // truyền vào một mảng
-        (_a = this.product).push.apply(_a, product);
+        this.product.push(product);
         this.showList(this.product);
     };
     ProductManager.prototype.showList = function (product) {
@@ -32,7 +30,7 @@ var ProductManager = /** @class */ (function () {
         document.getElementById('descriptionEdit').value = this.product[key].description;
         document.getElementById('index').value = key;
     };
-    ProductManager.prototype.delete = function (key) {
+    ProductManager.prototype["delete"] = function (key) {
         this.product.splice(key, 1);
         console.log(this.product);
         this.showList(this.product);
@@ -53,5 +51,4 @@ var ProductManager = /** @class */ (function () {
     };
     return ProductManager;
 }());
-export { ProductManager };
-//# sourceMappingURL=ProductManager.js.map
+exports.ProductManager = ProductManager;
